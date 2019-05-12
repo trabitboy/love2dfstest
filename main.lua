@@ -7,7 +7,6 @@
 		sd = love.filesystem.getSaveDirectory()		
 		print("save dir: "..sd)
 
-		sd=sd.."/mytst"
 		
 		function createtestdir()
 			love.filesystem.createDirectory("mytst")
